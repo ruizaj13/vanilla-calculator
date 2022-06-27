@@ -40,3 +40,51 @@ form button:hover {
     background: #2e2e2e;
     color: white;
 }
+
+.todo-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.todo-list {
+    min-width: 30%;
+    list-style: none;
+}
+
+.todo {
+    margin: 0.5rem;
+    background: white;
+    color: black;
+    font-size: 1.5rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.todo li {
+    flex: 1;
+}
+
+.delete-btn, .complete-btn {
+    background: #2e2e2e;
+    color: white;
+    border: none;
+    padding: 1rem;
+}
+
+.delete-btn:hover {
+    background: #9f0000;
+    color: white;
+    cursor: pointer;
+} 
+
+.complete-btn:hover {
+    background: #02892d;
+    color: white;
+    cursor: pointer;
+}
+
+.todo-item {
+    padding: 0rem 0.5rem;
+}
